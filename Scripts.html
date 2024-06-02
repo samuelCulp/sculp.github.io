@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            padding: 2em;
+        }
+        .script-link {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1em;
+        }
+        .script-link span {
+            margin-right: 1em;
+            flex-grow: 1;
+            background-color: #f0f0f0;
+            padding: 0.5em;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ask IT Links and Scripts</h1>
+    </header>
+    <main>
+        <h2>File Scripts</h2>
+        <div class="script-link">
+            <span id="script1">\\uabfile\scripts</span>
+            <button onclick="copyToClipboard('script1')">Copy</button>
+        </div>
+        <div class="script-link">
+            <span id="script2">\\uabfile.ad.uab.edu\itcs-scrptlogs$</span>
+            <button onclick="copyToClipboard('script2')">Copy</button>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 </p>
+    </footer>
+
+    <script>
+        function copyToClipboard(id) {
+            var text = document.getElementById(id).innerText;
+            var textarea = document.createElement("textarea");
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textarea);
+            alert("Copied the text: " + text);
+        }
+    </script>
+</body>
+</html>

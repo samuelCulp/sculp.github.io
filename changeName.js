@@ -92,10 +92,12 @@ const data = {
         { contact: 'Jonathan Ingram', email: 'jingram@uabmc.edu', phone: '', group: '' },
         { contact: 'Nazmul Islam | 934-3616', email: 'nislam@uabmc.edu', phone: '', group: '' },
     ],
+        'HSISHDD': [
+        { contact: '', email: '', phone: '(205) 934-8888', group: 'helpdesk@uabmc.edu' },
+    ],
     'HSISBAD': [
         { contact: 'Euric Dinkins', email: 'edinkins@uabmc.edu', phone: '', group: 'businessapps@uabmc.edu' },
         { contact: 'Tina Parker | 996-8775 cell: (256) 295-8086', email: 'twparker@uabmc.edu', phone: '', group: '' },
-
     ],
     'ICOD': [
         { contact: 'Holly Simpson', email: '', phone: '', group: '' },

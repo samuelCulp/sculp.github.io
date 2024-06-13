@@ -1,4 +1,4 @@
-// Example data structure for department contacts
+// Some name are mixed up and needed to be changed
 const data = {
     'ASKITD': [
         { contact: ' ', email: ' ', phone: '(205) 996-5555', group: 'AskIT@uab.edu' },
@@ -92,8 +92,45 @@ const data = {
         { contact: 'Jonathan Ingram', email: 'jingram@uabmc.edu', phone: '', group: '' },
         { contact: 'Nazmul Islam | 934-3616', email: 'nislam@uabmc.edu', phone: '', group: '' },
     ],
-    'HSISHDD': [
-        { contact: '', email: ' ', phone: '(205) 934-8888', group: 'helpdesk@uabmc.edu' },
+    'HSISBAD': [
+        { contact: 'Euric Dinkins', email: 'edinkins@uabmc.edu', phone: '', group: 'businessapps@uabmc.edu' },
+        { contact: 'Tina Parker | 996-8775 cell: (256) 295-8086', email: 'twparker@uabmc.edu', phone: '', group: '' },
+
+    ],
+    'ICOD': [
+        { contact: 'Holly Simpson', email: '', phone: '', group: '' },
+    ],
+    'PEDSD': [
+        { contact: 'Ashley McMullen', email: 'amcmullen@peds.uab.edu', phone: '638-6420', group: 'coahelp@childrensal.org' },
+        { contact: 'Bryan Yates', email: 'byates@peds.uab.edu', phone: '', group: '' },
+        { contact: 'Cassandra Hudson(neonatology)', email: 'chudson@peds.uab.edu', phone: '', group: '' },
+        { contact: 'Jane Bussey', email: 'jbussey@peds.uab.edu', phone: '', group: '' },
+        { contact: 'Justin Felder', email: 'jfelder@peds.uab.edu', phone: '', group: '' },
+        { contact: 'Matthew Duncan | 638-6422 | **ADOBE BUYER**', email: 'mduncan@uabmc.edu', phone: '', group: '' },
+        { contact: 'Nikitia Dials', email: 'nikitia.dials@childrensal.org', phone: '', group: '' },
+    ],
+    'MEISD': [
+        { contact: 'Adam Agee | 934-6616', email: 'acagee@uab.edu', phone: '934-6620', group: 'meis@uab.edu' },
+        { contact: 'Freddie Walker', email: 'fwalkerjr@uab.edu', phone: '934-6643', group: '' },
+        { contact: 'MEIS AV Support | 934-5046', email: 'meis@uab.edu', phone: '', group: '' },
+
+    ],
+    'AVD': [
+        { contact: 'Stephen Kemp | cell# (205) 240-6891 | Tier 2 escalation only!', email: 's1p2w1k8@uab.edu', phone: '975-3297', group: '' },
+        { contact: 'Walt Creel | cell# (205) 910-5291', email: 'whcreel@uab.edu', phone: '', group: '' },
+    ],
+    'CASITD': [
+        { contact: 'Kevin Worden', email: 'kworden@uab.edu', phone: '975-4500', group: 'casit@uab.edu' },
+        { contact: 'Mat Thompson', email: 'mathewt@uab.edu', phone: '', group: '' },
+        { contact: 'Matthew Pace', email: 'mpace@uab.edu', phone: '', group: '' },
+        { contact: 'Tejas Thorat', email: 'tejast@uab.edu', phone: '', group: '' },
+
+    ],
+    'DOPMD': [
+        { contact: 'Byron Chancellor', email: 'bchancellor@uabmc.edu', phone: '', group: 'DOPMHelp@uabmc.edu' },
+        { contact: 'David Clabough', email: 'dclabough@uabmc.edu ', phone: '', group: '' },
+        { contact: 'Rich D Searles | 934-7662', email: 'rsearles@uabmc.edu', phone: '', group: '' },
+        { contact: 'Sejong Bae', email: 'bsejong@uab.edu', phone: '', group: '' },
     ],
     'NeuroD': [
         { contact: 'Peter Michael Allendorfer | 123-4567', email: 'pmalle24@uab.edu', phone: '', group: '' },

@@ -201,7 +201,7 @@ const namingConventions = {
     'Surg': ['SURG'],
     '1917': ['blank'],
     'Maintenance': ['blank'],
-    'COLLAT': ['blank'],
+    'COLLAT': ['BUSCR-'],
     'HSISID': ['blank'],
     'Optometry': ['SO'],
     'SOD': ['blank'],

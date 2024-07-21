@@ -53,6 +53,8 @@ button:hover {
 }
 button:focus {
     background-color: #5c8192;
+    border-radius: 0%;
+    border: 2px solid black;
 }
 
 #table-container {

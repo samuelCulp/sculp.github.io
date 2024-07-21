@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Desktop Zones</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .zone {
+            margin: 5px;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            width: 30%;
+            box-sizing: border-box;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .zone1 {
+            background-color: #007bff;
+            color: #fff7f7;
+        }
+        .zone2 {
+            background-color: #ff4036f1;
+            color: #fff7f7;
+        }
+        .zone3 {
+            background-color: #26b336f3;
+            color: #fff7f7;
+        }
+        .building {
+            margin: 5px 0;
+        }
+        h2 {
+            font-weight: 700;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #000;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.5s ease, transform-origin 0.5s ease;
+            cursor: zoom-in;
+        }
+        .image-container img.zoomed {
+            transform: scale(2);
+            cursor: zoom-out;
+        }
+
+    </style>
+</head>
+
+
+    <header>
+        <h1>Ask IT Links and Scripts</h1>
+    </header>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="Scripts.html">Scripts Page</a></li>
+                <li><a href="Service Portal Links.html">Service Portal Links Page</a></li>
+            </ul>
+        </nav>
+
+
+        <body>
+
+    <div class="container">
+        <div class="zone zone1">
+            <h2>Desktop - Zone 1</h2>
+            <div class="building">ADMINISTRATION BUILDING (AB)</div>
+            <div class="building">BEVILL BIOMEDICAL SCIENCES (BBRB)</div>
+            <div class="building">JEFFERSON TOWER (JT)</div>
+            <div class="building">SCHOOL OF DENTISTRY (SDB)</div>
+            <div class="building">TINSLEY HARRISON (THT)</div>
+            <div class="building">ZEIGLER BUILDING (ZRB)</div>
+            <div class="building">MEDICAL TOWERS (MT)</div>
+            <div class="building">936 BUILDING (936)</div>
+            <div class="building">HOLLEY-MEARS (HMB)</div>
+            <div class="building">COMMUNITY HEALTH SERVICES BLDG 19TH (CH19)</div>
+            <div class="building">COMMUNITY CARE (CCB)</div>
+            <div class="building">BIOMEDICAL RESEARCH BUILDING II (BMR2)</div>
+            <div class="building">KAUL HUMAN GENETICS (KAUL)</div>
+            <div class="building">KRACKE BUILDING (KB)</div>
+            <div class="building">NEW HILLMAN (NHB)</div>
+            <div class="building">OLD HILLMAN (OHB)</div>
+            <div class="building">LYONS-HARRISON (LHRB)</div>
+            <div class="building">NORTH WING (NW)</div>
+            <div class="building">QUARTERBACK TOWER (QT)</div>
+            <div class="building">BOSHELL BUILDING (BDB)</div>
+            <div class="building">CENTRAL UTILITY BLDG #3 (CU3)</div>
+            <div class="building">FACULTY OFFICE TOWER (FOT)</div>
+            <div class="building">GENERAL SERVICES BUILDING (GSB)</div>
+            <div class="building">COMMUNITY HEALTH SERVICES BLDG 20TH (CH20)</div>
+            <div class="building">RUSSELL AMBULATORY CENTER (RWUH)</div>
+            <div class="building">NORTH PAVILION (NP)</div>
+        </div>
+        <div class="zone zone2">
+            <h2>Desktop - Zone 2</h2>
+            <div class="building">LISTER HILL LIBRARY (LHL)</div>
+            <div class="building">WALLACE TUMOR INSTITUTE (WTI)</div>
+            <div class="building">CIVITAN BUILDING (CIRC)</div>
+            <div class="building">CALLAHAN EYE HOSPITAL HEALTH CARE AUTHORITY (EFH)</div>
+            <div class="building">Ryals Public Health Building (RPHB)</div>
+            <div class="building">WEBB BUILDING (WEBB)</div>
+            <div class="building">SCHOOL OF NURSING (NB)</div>
+            <div class="building">LEARNING RESOURCE CENTER (LRC)</div>
+            <div class="building">CUDWORTH BUILDING (CEC)</div>
+            <div class="building">SCHOOL OF HEALTH PROFESSIONS (SHPB)</div>
+            <div class="building">SHELBY BIOMEDICAL RSCH BLDG (SHEL)</div>
+            <div class="building">RUST COMPUTER CENTER (RUST)</div>
+            <div class="building">RESEARCH SUPPORT BUILDING (RSB)</div>
+            <div class="building">Technology Innovation Center (TIC)</div>
+            <div class="building">BURLESON BUILDING (BUR)</div>
+            <div class="building">WEST PAVILION (WP)</div>
+            <div class="building">CTR BIOPHYSICAL SCIENCES AND ENGINEERING (CBSE)</div>
+        </div>
+        <div class="zone zone3">
+            <h2>Desktop - Zone 3</h2>
+            <div class="building">VOLKER HALL (VH)</div>
+            <div class="building">UAB Police Department</div>
+            <div class="building">Hill Student Center (HILL)</div>
+            <div class="building">CHEMISTRY BUILDING (CHEM)</div>
+            <div class="building">BLAZER HALL II (BZ2H)</div>
+            <div class="building">CAMP HALL (CMPH)</div>
+            <div class="building">University Hall (UH)</div>
+            <div class="building">DENMAN HALL (DNMH)</div>
+            <div class="building">RAST HALL (RSTH)</div>
+            <div class="building">McMahon Hall (MCMH)</div>
+            <div class="building">Gold Hall (GOLD)</div>
+            <div class="building">BLOUNT HALL (BNTH)</div>
+            <div class="building">UAB CHILD CARE CENTER (UCCC)</div>
+            <div class="building">1605 BUILDING (1605)</div>
+            <div class="building">1701 BUILDING (1701)</div>
+            <div class="building">BARTOW ARENA (BRTW)</div>
+            <div class="building">CAMPBELL HALL (CH)</div>
+            <div class="building">BELL BUILDING (BELL)</div>
+            <div class="building">Physical Education Building (PE)</div>
+            <div class="building">ULLMAN WEST (UW)</div>
+            <div class="building">ULLMAN BUILDING (U)</div>
+            <div class="building">Football Operations Building (FOPS)</div>
+            <div class="building">Collat School Of Business (CSB)</div>
+            <div class="building">UNIVERSITY BOULEVARD OFFICE BLDG (UBOB)</div>
+            <div class="building">STERNE LIBRARY (SL)</div>
+            <div class="building">EDUCATION BUILDING (EB)</div>
+            <div class="building">ALUMNI BUILDING (ALUM)</div>
+            <div class="building">UAB Recycling Center (RCY)</div>
+            <div class="building">HUMANITIES BUILDING (HB)</div>
+            <div class="building">ALYS ROBINSON STEPHENS CENTER (ASC)</div>
+            <div class="building">SPENCER HONORS HOUSE (HOH)</div>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="UAB map done.png" alt="Description of Image" id="zoomImage">
+    </div>
+    <script>
+        document.getElementById('zoomImage').addEventListener('click', function() {
+            this.classList.toggle('zoomed');
+        });
+    </script>
+
+</body>
+</html>

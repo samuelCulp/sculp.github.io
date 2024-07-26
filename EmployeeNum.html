@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* height: 100%; */
+            margin: 0;
+            padding: 0;
+        }
+        header footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        
+        table {
+            /* margin-top: 5px; */
+            margin-bottom: 40px; 
+            width: 80%;
+            border-collapse: collapse;
+            border: solid black 2px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #f5f5f5;
+        }
+        th {
+            background-color: #252e57;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #d9d9d9;
+        }
+        h2 {
+            color: #252e57;
+        }
+    </style>
+</head>
+<header>
+    <h1>Ask IT Links and Scripts</h1>
+</header>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Scripts.html">Scripts Page</a></li>
+            <li><a href="Service Portal Links.html">Service Portal Links Page</a></li>
+            <li><a href="Desktop_Zones.html">Desktop Zones Page</a></li>
+            
+        </ul>
+    </nav>
+
+<h2>EMPLOYEES & ASSIGNMENT CATEGORIES</h2>
+<table>
+    <tr>
+        <th>Assignment Category</th>
+        <th>Type</th>
+        <th>System Description</th>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>Full-Time Regular Employees</td>
+        <td>This type of employee typically works 32 to 40 hours and has an indefinite appointment.</td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td>Full-Time Temp Employees</td>
+        <td>Temporary employees typically work 40 hours per week. They have an expected termination date of less than one year from their hire date.</td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>Part-Time Regular Employees</td>
+        <td>These employees work less than 40 hours per week, but at least 40 hours in a two-week period. They receive a prorated number of holidays per year.</td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td>Irregular Employees</td>
+        <td>In this category, employees may work full or part-time and may work an irregular schedule. UAB Temporary Service employees are appointed as 04 Irregular employees.</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Three Twelve-hour-shift Employees (3/12 Hour)</td>
+        <td>This category is for UAB Hospital employees who are required to regularly work 3/12 hour shifts a week and have an indefinite appointment.</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>Weekend Staff</td>
+        <td>Only UAB Hospital employees work 24-hours on weekends and at other requested coverage periods.</td>
+    </tr>
+    <tr>
+        <td>99</td>
+        <td>Requisition Employees</td>
+        <td>This category is limited to payments to individuals to whom UAB expects to make only one employee payment.</td>
+    </tr>
+    <tr>
+        <td>06</td>
+        <td>Students</td>
+        <td>These students hold positions at UAB and are usually paid by the institution, a grant, or a stipend.</td>
+    </tr>
+    <tr>
+        <td>07</td>
+        <td>Interns and/or Residents</td>
+        <td>These are individuals usually in the medical areas, but can also be administrative residents, house staff, or other internship programs.</td>
+    </tr>
+    <tr>
+        <td>20 & 21</td>
+        <td>Post-doctoral Scholar Trainees</td>
+        <td>These individuals receive a monthly fellowship paid from the Scholarships/Fellowships object code.
+             They are not UAB employees. If designated as an assignment category 20, they may be designate by their departments, 
+            paid by UAB and compensated by funds from grants or other non-training sources, but will not receive additional funds from a monthly fellowship. </td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Work Study Students</td>
+        <td>These students receive a percentage of their salary in work study benefits established by the U.S. Department of Education.</td>
+    </tr>
+    <tr>
+        <td>46</td>
+        <td>Trainees</td>
+        <td>Trainees are student or other individuation appointed for a specific period of time to participate in University 
+            approved programs. There is no employer-employee relationship with UAB. The following job titles are approved for this category: Athletic Scholar;
+             Division Occasional Award; Graduate Student Trainee, Non-UAB Student/Trainee. Trainees are not eligible for any UAB 
+             benefits or privileges of employment.</td>
+    </tr>
+    <tr>
+        <td>59</td>
+        <td>Affiliate Employee</td>
+        <td>These are individuals that are employees of other UAB entities or companies that have a contractual relationship with 
+            UAB that require access to UAB systems to perform daily business functions. The following job titles are approved for 
+            this category: Oracle Access Only and UA System Employee.This is a non-paid assignment. Affiliate employees are not
+             eligible for any UAB benefits or privileges of employment.</td>
+    </tr>
+
+</table>
+
+<h2>UABBOX Access</h2>
+
+<table>
+    <tr>
+        <th>Criteria</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Eligibility Check</td>
+        <td>If the user is eligible, the request should be assigned to the Windows team. AskIT can check eligibility on Blazer 411 using the following criteria:</td>
+    </tr>
+    <tr>
+        <td>Extended View</td>
+        <td>Click on Extended view to see a subset of iPlanet LDAP info. Both criteria must be true to be eligible:</td>
+    </tr>
+    <tr>
+        <td>departmentNumber</td>
+        <td>Must exist and be an all-numeric value that does not start with '69' or '7'.</td>
+    </tr>
+    <tr>
+        <td>uabemployeestatus</td>
+        <td>Must exist and be an all-numeric value less than "50".</td>
+    </tr>
+    <tr>
+        <td>Example Eligible Person</td>
+        <td>Bob (recloud) -- departmentNumber: 191500000, uabemployeestatus: 01</td>
+    </tr>
+    <tr>
+        <td>Example Non-Eligible Person</td>
+        <td>Chris Shepard (shep) -- departmentNumber: HSFHSF-HS, uabemployeestatus: 5S</td>
+    </tr>
+</table>
+
+
+</body>
+
+<footer>
+    <p>&copy; 2024 </p>
+</footer>
+</html>

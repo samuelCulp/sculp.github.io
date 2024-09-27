@@ -664,7 +664,7 @@
 		"SOE": ["blank"],
 		"Anesthesia": ["ANES"],
 		"CCTSF": ["RAD", "PHAR", "PHARM", "PHARMTOX", "SURG", "WTI"],
-		"DOM": ["NEURO-", "PBN-", "PULM-", "RHEUM-", "SURGD-", "SURG-(if Children's ambulatory)", "URO-", "U*", "W*-LW-", "CARD-", "CCTS-", "CDIB-", "CFRC-", "CNC-", "DOM-", "END-", "ENT-", "GEHEP-", "GGMPC-", "HEM-", "HEMONC-", "IDD-", "II-", "INTMD-", "NEPH-"],
+		"DOM": ["AKF-", "CARD-", "CCTS-", "CDIB-", "CFRC-", "CNC-", "DERM-", "DOM-", "END-", "ENT-", "GEHEP-", "GGMPC-", "GIM-", "HEM-", "HEMONC-", "IDD-", "II-", "INTMD-", "NEPH-", "NEURO-", "PBN-", "PULM-", "RHEUM-", "SURGD-", "SURG-(if Children's ambulatory)", "URO-", "U*", "W*-LW-"],
 		"HSISBA": ["blank"],
 		"ICO": ["blank"],
 		"PEDS": ["EN", "NE", "NN", "NH", "OR", "LOW"],

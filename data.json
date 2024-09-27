@@ -11,7 +11,8 @@
 			"email": "demarkio@uab.edu",
 			"phone": "",
 			"group": "Surgeryit@uabmc.edu"
-		} ],
+		}
+		],
 		"1917D": [{
 				"contact": "Alfredo Guzman",
 				"email": "aguzman@uabmc.edu",
@@ -63,9 +64,16 @@
 			"phone": "",
 			"group": "iamteam@uabmc.edu"
 		} ],
-		"OptoD": [{
+		"OptoD": [
+						{
 				"contact": "Chris Boutwell | 934-6567 | Dir Administrative Ops",
 				"email": "cboutwel@uab.edu",
+				"phone": "",
+				"group": ""
+			},
+			{
+				"contact": "Daniel Watts  |  934-2834",
+				"email": "dwatts@uab.edu",
 				"phone": "",
 				"group": ""
 			},
@@ -76,7 +84,33 @@
 				"group": ""
 			}
 		],
-		"SODD": [{
+		"SODD": [
+			{
+				"contact": "Kim Harris",
+				"email": "vk1628@uab.edu",
+				"phone": "",
+				"group": ""
+			},
+			{
+				"contact": "Cedric Maddox  |  975-3235",
+				"email": "maddoxcl@uab.edu",
+				"phone": "",
+				"group": ""
+			},
+			{
+				"contact": "Richard Camp",
+				"email": "racamp@uab.edu",
+				"phone": "",
+				"group": ""
+			},
+			{
+				"contact": "Matt Chumley  |  996-5417",
+				"email": "chumleym@uab.edu",
+				"phone": "",
+				"group": ""
+			},
+			
+			{
 				"contact": "Chris Walder | 975-7491",
 				"email": "cklw@uab.edu",
 				"phone": "",
@@ -85,18 +119,6 @@
 			{
 				"contact": "Chris Campbell | 6-5417",
 				"email": "jccampbe2001@uab.edu",
-				"phone": "",
-				"group": ""
-			},
-			{
-				"contact": "Joseph Lovetto | 934-5236",
-				"email": "jlovetto@uab.edu",
-				"phone": "",
-				"group": ""
-			},
-			{
-				"contact": "Cedric Maddox | 975-3235",
-				"email": "maddoxcl@uab.edu",
 				"phone": "",
 				"group": ""
 			}
@@ -235,8 +257,8 @@
 				"group": ""
 			},
 			{
-				"contact": "Wesley Pate",
-				"email": "wpate@uab.edu",
+				"contact": "Noah Petersen",
+				"email": "njpeters@uab.edu",
 				"phone": "",
 				"group": ""
 			}
@@ -252,7 +274,7 @@
 				"contact": "Bryan Duke | 975-8662 | (205)-601-1607",
 				"email": "bryanduke@uabmc.edu",
 				"phone": "",
-				"group": ""
+				"group": "https://www.uab.edu/medicine/dom/about/references-and-resources/dom-it"
 			},
 			{
 				"contact": "Cameron Davis",
@@ -307,12 +329,6 @@
 				"email": "jingram@uabmc.edu",
 				"phone": "",
 				"group": ""
-			},
-			{
-				"contact": "Nazmul Islam | 934-3616",
-				"email": "nislam@uabmc.edu",
-				"phone": "",
-				"group": ""
 			}
 		],
 		"HSISHDD": [{
@@ -326,12 +342,6 @@
 				"email": "edinkins@uabmc.edu",
 				"phone": "",
 				"group": "businessapps@uabmc.edu"
-			},
-			{
-				"contact": "Tina Parker | 996-8775 cell: (256) 295-8086",
-				"email": "twparker@uabmc.edu",
-				"phone": "",
-				"group": ""
 			}
 		],
 		"ICOD": [{
@@ -343,8 +353,8 @@
 		"PEDSD": [{
 				"contact": "Ashley McMullen",
 				"email": "amcmullen@peds.uab.edu",
-				"phone": "638-6420",
-				"group": "coahelp@childrensal.org"
+				"phone": "638-6568",
+				"group": "support.chsys.org"
 			},
 			{
 				"contact": "Bryan Yates",
@@ -393,6 +403,12 @@
 				"contact": "Freddie Walker",
 				"email": "fwalkerjr@uab.edu",
 				"phone": "934-6643",
+				"group": "https://www.uab.edu/medicine/home/offices-services/medical-education-information-services-meis"
+			},
+						{
+				"contact": "Jonathan Magnus",
+				"email": "jmag86@uab.edu",
+				"phone": "",
 				"group": ""
 			},
 			{
@@ -407,6 +423,12 @@
 				"contact": "Stephen Kemp | cell# (205) 240-6891 | Tier 2 escalation only!",
 				"email": "s1p2w1k8@uab.edu",
 				"phone": "975-3297",
+				"group": ""
+			},
+						{
+				"contact": "Andrew Hinnegan  | Tier 2 escalation only!",
+				"email": "hinnegan@uab.edu",
+				"phone": "",
 				"group": ""
 			},
 			{
@@ -536,6 +558,12 @@
 				"email": "brianpedwards@uabmc.edu",
 				"phone": "934-8888",
 				"group": "desktopdev@uabmc.edu"
+			},
+						{
+				"contact": "Vegas Warren, Supervisor  |  996-8818",
+				"email": "vware01@uabmc.edu",
+				"phone": "",
+				"group": ""
 			},
 			{
 				"contact": "Eric Fitts | 934-1189",
@@ -673,7 +701,7 @@
 		"CASIT": ["CAS"],
 		"DOPM": ["blank"],
 		"HSISHD": ["blank"],
-		"Neuro": ["Initials-Micro-lab# or Initials-Neuro-", "NBIO"],
+		"Neuro": ["Initials-Micro-lab# or Initials-Neuro-", "NBIO","GENOME"],
 		"Physical": ["blank"],
 		"TvRepair": ["blank"],
 		"Facilities": ["OHS"],

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flask Fetch Test</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Test Fetch → Flask</h1>
+
+    <button onclick="testGet()">Send GET Request</button>
+    <br />
+
+    <button onclick="testPost()">Send POST Request</button>
+
+    <h2>Response:</h2>
+    <pre id="output">(nothing yet)</pre>
+
+    <script>
+        const API_BASE = "http://localhost:5000";
+
+        function writeOutput(data) {
+            document.getElementById("output").textContent =
+                JSON.stringify(data, null, 2);
+        }
+
+        // --- GET request ---
+        function testGet() {
+            fetch(`${API_BASE}/api/some-endpoint`)
+                .then(res => res.json())
+                .then(data => writeOutput(data))
+                .catch(err => writeOutput({ error: err.toString() }));
+        }
+
+        // --- POST request ---
+        function testPost() {
+            fetch(`${API_BASE}/api/create`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    username: "Matt",
+                    role: "admin"
+                })
+            })
+                .then(res => res.json())
+                .then(data => writeOutput(data))
+                .catch(err => writeOutput({ error: err.toString() }));
+        }
+    </script>
+
+</body>
+</html>

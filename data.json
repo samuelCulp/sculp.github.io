@@ -704,7 +704,7 @@
 		"Neuro": ["Initials-Micro-lab# or Initials-Neuro-", "NBIO","GENOME"],
 		"Physical": ["blank"],
 		"TvRepair": ["blank"],
-		"Facilities": ["OHS"],
+		"Facilities": ["OHS", "FAB.UAB.EDU"],
 		"HSISSYS": ["blank"],
 		"OBGYN": ["blank"],
 		"RepairComm": ["blank"],
